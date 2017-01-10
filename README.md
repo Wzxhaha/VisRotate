@@ -8,3 +8,9 @@ view --rotate--> a full screen view --rotate--> view
     return NO;
 }
 ```
+## Use
+```objc
+ [view vis_rotateToOrientation:Orientation
+                        bounds:bounds
+                      duration:duration];
+```
